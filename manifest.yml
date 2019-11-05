@@ -1,0 +1,61 @@
+# wskdeploy manifest file
+
+packages:
+  CloudFunctionsNodejs:
+    version: 1.0
+    license: Apache-2.0
+    # inputs: 
+    #   services.db.url: "{{DATABASE_URL}}"
+    #   services.db.name: "{{DATABASE}}"
+    actions:
+      create:
+        version: 1.0
+        function: actions/create.js
+        runtime: nodejs:10
+        web-export: true
+      delete:
+        version: 1.0
+        function: actions/delete.js
+        runtime: nodejs:10
+        web-export: true
+      deleteAll:
+        version: 1.0
+        function: actions/deleteAll.js
+        runtime: nodejs:10
+        web-export: true
+      read:
+        version: 1.0
+        function: actions/read.js
+        runtime: nodejs:10
+        web-export: true
+      readAll:
+        version: 1.0
+        function: actions/readAll.js
+        runtime: nodejs:10
+        web-export: true
+      update:
+        version: 1.0
+        function: actions/update.js
+        runtime: nodejs:10
+        web-export: true
+    apis:
+      CloudFunctionsNodejs:
+        CloudFunctionsNodejs:
+          api/create:
+            create:
+              method: "POST"
+          api/delete:  
+            delete:
+              method: "DELETE"
+          api/read:
+            read:
+              method: "GET"
+          api/update:
+            update:
+              method: "PUT"
+          api/deleteAll:
+            deleteAll:
+              method: "DELETE"
+          api/readAll:
+            readAll:
+              method: "GET"
