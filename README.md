@@ -32,7 +32,7 @@ This app does not include code to connect to a database, but it includes entry p
 
 ## Steps
 
-While you can use the individual actions locally, this collection of endpoints is meant to be deployed to IBM Cloud Functions. You can [deploy this application to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fgee4vee%2Fcloud-functions-nodejs-toolchain) or [deploy it manually](#deploying-manually) by cloning this repo first.  
+While you can use the individual actions locally, this collection of endpoints is meant to be deployed to IBM Cloud Functions. You can [deploy this application to IBM Cloud](#deploying-to-ibm-cloud) or [deploy it manually](#deploying-manually) by cloning this repo first.  
 
 You can then review the [Actions](https://cloud.ibm.com/functions/actions) in the IBM Cloud console, along with your [Cloud Functions APIs](https://cloud.ibm.com/functions/apimanagement).
 <table>
