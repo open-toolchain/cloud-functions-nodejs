@@ -1,3 +1,6 @@
+# This application repo has been deprecated and is no longer supported. It was the sample application for the Cloud-Function-NodeJS toolchain:
+## https://github.com/open-toolchain/cloud-functions-nodejs-toolchain
+
 <p align="center">
     <a href="https://cloud.ibm.com">
         <img src="https://landscape.cncf.io/logos/ibm-cloud-kcsp.svg" height="100" alt="IBM Cloud">
