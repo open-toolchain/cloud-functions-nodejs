@@ -1,4 +1,4 @@
-# This template has been deprecated and is no longer supported.
+# This example has been deprecated and is no longer supported.
 
 <p align="center">
     <a href="https://cloud.ibm.com">
