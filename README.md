@@ -1,4 +1,5 @@
-# This example has been deprecated and is no longer supported.
+# This application repo has been deprecated and is no longer supported. It was the sample application for the Cloud-Function-NodeJS toolchain:
+## https://github.com/open-toolchain/cloud-functions-nodejs-toolchain
 
 <p align="center">
     <a href="https://cloud.ibm.com">
